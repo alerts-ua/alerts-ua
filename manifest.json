@@ -1,8 +1,9 @@
 {
+  "id": "alerts_in_ua",
   "short_name": "Карта тривог",
   "name": "Карта повітряних тривог України",
   "lang": "uk",
-  "start_url": "/",
+  "start_url": "/?pwa",
   "background_color": "#202124",
   "display": "standalone",
   "scope": "/",
