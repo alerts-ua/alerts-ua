@@ -32,6 +32,7 @@
                         /pagead\/js/i,
                         /extensions\//i,
                         /^chrome:\/\//i,
+                        /chrome-extension/i,
                     ],
                     ignoreErrors: [
                         'top.GLOBALS',
@@ -40,6 +41,8 @@
                         'AbortError',
                         'The requesting page is not visible',
                         'evaluating \'window.webkit.messageHandlers\'',
+                        'Wake Lock',
+                        'Wakelock'
 
                     ]
                 });
